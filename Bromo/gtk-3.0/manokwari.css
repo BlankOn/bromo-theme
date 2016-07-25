@@ -1,7 +1,7 @@
 .manokwari-fullscreen-dialog {
 	background: rgba(0, 0, 0, 0.8);
 	background: url("bg.png") no-repeat center center; 
-	background-size: 100%;
+	background-size: cover;
 	color: white;
 	-webkit-background-size: cover;
  }
