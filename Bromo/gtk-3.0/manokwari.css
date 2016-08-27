@@ -46,3 +46,24 @@
 	-webkit-font-smoothing: antialiased !important;
 	opacity: 1;
 }
+
+.manokwari-panel-pager {
+	background-color: #1A1A1A;
+	color: #ddd;
+}
+.manokwari-panel-pager button {
+	background-color: #333;
+	color: #ddd;
+	border-color: #1A1A1A;
+	border-radius: 0px;
+}
+.manokwari-panel-pager button:hover {
+	background-color: #1E90FF;
+	color: #111;
+	border-color: #1E90FF;
+}
+.manokwari-panel-pager box {
+	background-color: #333;
+	color: #111;
+}
+}
