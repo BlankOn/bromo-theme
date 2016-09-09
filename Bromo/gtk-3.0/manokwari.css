@@ -31,13 +31,13 @@
 }
 
 .manokwari-panel-window-names {
-	background-color: #1A1A1A;
+	background-color: #111;
 	color: #444;
 	font-size: 0.63em;
 	text-shadow: 0px 0px 0px #222;
 	-webkit-text-rendering: optimizeLegibility !important;
 	-webkit-font-smoothing: antialiased !important;
-	opacity: 0.95;
+	opacity: 0.9;
 }
 
 .manokwari-panel-window-names:hover {
@@ -48,22 +48,64 @@
 }
 
 .manokwari-panel-pager {
-	background-color: #1A1A1A;
+	background-color: #222;
 	color: #ddd;
 }
+
 .manokwari-panel-pager button {
 	background-color: #333;
 	color: #ddd;
-	border-color: #1A1A1A;
+	border-color: #111;
+	border-width: 1px;
 	border-radius: 0px;
 }
-.manokwari-panel-pager button:hover {
+
+.manokwari-panel-pager button:active {
 	background-color: #1E90FF;
 	color: #111;
 	border-color: #1E90FF;
 }
 .manokwari-panel-pager box {
-	background-color: #333;
+	background: transparent;
 	color: #111;
 }
+
+/* Sidebar */
+.manokwari-panel-sidebar,
+.manokwari-panel-sidebar box {
+	background: #111;
+	color: #aaa;
+	border-color: #000;
+}
+.manokwari-panel-sidebar button {
+	background: #222;
+	color: #aaa;
+	border-radius: 0px;
+	border-color: #000;
+}
+.manokwari-panel-sidebar button:active {
+	background-color: #1E90FF;
+	color: #fff;
+	border-color: #1E90FF;
+} 
+.manokwari-panel-sidebar calendar {
+	background: #111;
+	color: #ccc;
+	border-color: #000;
+}
+.manokwari-panel-sidebar calendar:selected {
+	background: #1E90FF;
+	color: #fff;
+	border-color: #000;
+}
+.manokwari-panel-sidebar  calendar:indeterminate {
+	color: #555;
+}
+.manokwari-panel-sidebar calendar.button {
+	background: #111;
+	color: #aaa;
+}
+.manokwari-panel-sidebar calendar.button:hover, 
+.manokwari-panel-sidebar calendar.button:focus:hover {
+	color: #fff;
 }
